@@ -80,7 +80,6 @@ exp_args = dict(
         prune_method=args.prune_method,
         prune_ll=args.prune_ll,
         regrow_method=args.regrow_method,
-        death_rate=args.death_rate,
         no_margin=args.no_margin,
         update_d=args.update_d,
         update_freq=args.update_freq,

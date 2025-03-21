@@ -34,7 +34,7 @@ model='vgg11_bn'
 client_num=100
 alpha=0.1
 train_num=100
-python -u ./flzoo/cifar10/cifar10_fedlips_resnet_config.py --dst rigl --model $model --prune_ll large --prune_mode global_sel --regrow_method sensityk --noniid $noniid --client_num $client_num --train_num $train_num --seed 2 --density_init 1.0 --alpha $alpha --no_margin True --update_d 0.5 --update_freq 5
+python -u ./flzoo/cifar10/cifar10_fedlips_resnet_config.py --dst rigl --model $model --prune_ll large --update_mode global_sel --regrow_method sensityk --noniid $noniid --client_num $client_num --train_num $train_num --seed 2 --density_init 1.0 --alpha $alpha --no_margin True --update_d 0.5 --update_freq 5
 
 ```
 
@@ -46,7 +46,7 @@ model='ResNet8'
 client_num=100
 alpha=0.1
 train_num=100
-python -u ./flzoo/cifar100/cifar100_fedlips_resnet_config.py --dst rigl --model $model --prune_ll large --prune_mode global_sel --regrow_method sensityk --noniid $noniid --client_num $client_num --train_num $train_num --seed 2 --density_init 1.0 --alpha $alpha --no_margin True --update_d 0.3 --update_freq 5
+python -u ./flzoo/cifar100/cifar100_fedlips_resnet_config.py --dst rigl --model $model --prune_ll large --update_mode global_sel --regrow_method sensityk --noniid $noniid --client_num $client_num --train_num $train_num --seed 2 --density_init 1.0 --alpha $alpha --no_margin True --update_d 0.3 --update_freq 5
 
 ```
 
