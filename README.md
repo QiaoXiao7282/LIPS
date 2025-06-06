@@ -1,7 +1,7 @@
-# From Stagnation to Elevation: Empower Aggregation in Federated Learning through the Lens of Sparsity
+# Addressing the Collaboration Dilemma in Low-Data Federated Learning via Transient Sparsity
 
 
-This is the offical implementation for the submission titled From Stagnation to Elevation: Empower Aggregation in Federated Learning through the Lens of Sparsity.
+This is the offical implementation for the submission titled Addressing the Collaboration Dilemma in Low-Data Federated Learning via Transient Sparsity.
 
 ## Requirements
 - torch==1.12.1
