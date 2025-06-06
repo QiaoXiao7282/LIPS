@@ -10,14 +10,7 @@ This is the offical implementation for the submission titled Addressing the Coll
 - easydict==1.9'
 - yapf==0.29.0
 - timm
-- click
-- prettytable
-- portalocker
 - einops
-- scipy
-- six
-- tqdm
-- matplotlib
 
 
 ## Dataset
