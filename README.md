@@ -1,7 +1,7 @@
 # Addressing the Collaboration Dilemma in Low-Data Federated Learning via Transient Sparsity
 
 
-This is the offical implementation for the submission titled Addressing the Collaboration Dilemma in Low-Data Federated Learning via Transient Sparsity.
+This is the offical implementation for [Addressing the Collaboration Dilemma in Low-Data Federated Learning via Transient Sparsity]([https://arxiv.org/abs/2505.24037](https://arxiv.org/abs/2506.00932))
 
 ## Requirements
 - torch==1.12.1
